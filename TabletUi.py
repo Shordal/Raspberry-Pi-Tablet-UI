@@ -1,9 +1,11 @@
 #Tablet UI
+#2018 - 2018 Steven payne, PyTablUI
 
 from tkinter import *
 from picamera import *
 from TabletCamera import cameraFunctions
 from TabletLayouts import SelectImageEffects
+
 global root, camera
 root = Tk()
 frame =Frame(root)
@@ -36,8 +38,6 @@ class StartUpLayOut:
             camera.stop_preview()
             root.destroy()
         
-        
-
 Start = StartUpLayOut(root)
 
 root.mainloop()

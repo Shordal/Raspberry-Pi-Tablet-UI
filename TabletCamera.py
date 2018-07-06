@@ -1,4 +1,5 @@
 #Tablet UI
+#2018 - 2018 Steven payne, PyTablUI
 
 class cameraFunctions(object):
     

@@ -1,4 +1,5 @@
 #Tablet UI
+#2018 - 2018 Steven payne, PyTablUI
 
 from tkinter import *
 from picamera import *
@@ -6,9 +7,6 @@ from TabletCamera import *
 from imageEffects import *
 import TabletUi
 
-
-
-    
 class SelectImageEffects(object):
         
     def imageEffectSelectionLayout(camera,  frame):
