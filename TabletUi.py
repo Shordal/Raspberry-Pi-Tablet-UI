@@ -1,4 +1,5 @@
 #Tablet UI
+
 from tkinter import *
 from picamera import *
 from TabletCamera import cameraFunctions
@@ -27,7 +28,6 @@ class StartUpLayOut:
         def GoToImageEffects(camera, frame):
             
             goToImageEffects.destroy(),  takePictureButton.destroy()
-#            SelectImageEffects.imageLayout(camera, frame)
             SelectImageEffects.imageEffectSelectionLayout(camera, frame)
             
         def exitButton():

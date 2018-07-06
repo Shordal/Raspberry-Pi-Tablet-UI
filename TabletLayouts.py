@@ -1,7 +1,4 @@
-#Table Ui Layouts
-#from TabletCamera import *
-#from TabletUi import *
-#from TabletUi import MainMenu
+#Tablet UI
 
 from tkinter import *
 from picamera import *
