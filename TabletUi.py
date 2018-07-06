@@ -1,5 +1,5 @@
 #Tablet UI
-#2018 - 2018 Steven Payne, PyTablUI
+#2018 - 2018 Steven Payne, PyTabletUI
 
 from tkinter import *
 from picamera import *
@@ -9,10 +9,19 @@ from TabletLayouts import SelectImageEffects
 global root, camera
 root = Tk()
 frame =Frame(root)
+
+
+root.geometry('430x170+0+0')
+#width, hight, x, y
+root.overrideredirect(1)
+
 frame.pack()
 camera = PiCamera()
+camera.resolution = (1280, 720)
+camera.video_stabilization = "True"
+camera.start_preview(fullscreen=False, window=(0,  50, 550, 550))
+#location: X, location: Y, Width, Hight
 
-camera.start_preview(fullscreen=False, window=(100, 200, 600, 800))
 
 class StartUpLayOut:
     
