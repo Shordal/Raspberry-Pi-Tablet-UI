@@ -1,5 +1,5 @@
 #Tablet UI
-#2018 - 2018 Steven payne, PyTablUI
+#2018 - 2018 Steven Payne, PyTablUI
 
 class cameraImageEffects(object):
     
